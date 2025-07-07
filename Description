@@ -1,0 +1,32 @@
+📚 School Library Management System
+
+This is a Python-based Library Management System built for a school using:
+
+- Tkinter for the Graphical User Interface (GUI)
+- MySQL as the backend database
+- Pillow for image support in the GUI
+
+The system allows you to manage books, track student members, and perform core library operations — all through a simple, user-friendly interface.
+
+🎯 Features
+
+✅ Register new student members using their **Roll Number** and **Name**  
+✅ Add books with multiple copies (based on **Book Title**, **Author**)  
+✅ Automatically increment book copy count if the same book is added again  
+✅ Issue books to registered students (copies are decremented)  
+✅ Return books and update the number of available copies  
+✅ Delete books by **Book ID**  
+✅ Attractive front page with background image and stylized welcome message  
+
+
+🗂 Project Structure
+
+
+library-management
+│
+├── gui.py             # Main GUI application
+├── db.py              # MySQL connection setup
+├── logic.py           # Core logic for book/member management
+├── library.png        # Background image for GUI
+├── README.md          # Project documentation
+└── requirements.txt   # Dependencies list
